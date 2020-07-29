@@ -1,1 +1,18 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-donuth title="Ventas"></app-donuth>
+    </div>
+    <div class="col-6">
+        <app-donuth [labels]="labels1"
+                    [data]="data1"
+                    title="Ventas 2"></app-donuth>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <app-donuth title="Ventas 3"></app-donuth>
+    </div>
+    <div class="col-6">
+        <app-donuth title="Ventas 4"></app-donuth>
+    </div>
+</div>
